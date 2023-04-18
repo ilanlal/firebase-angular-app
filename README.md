@@ -2,6 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+## Firebase CLI backlog
+
+Create firebase project at: [Firebase Console](https://console.firebase.google.com/)
+
+Run `npm install firebase` to install the latest SDK
+
+Run `npm install -g firebase-tools` for host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+
+Run `firebase login`
+
+Run `firebase init`
+
+Run `ng build`
+
+Run `xcopy .\dist\firebase-angular-app\*.*  .\public`
+
+Run `firebase deploy`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
