@@ -1,6 +1,9 @@
 # FirebaseAngularApp
 
+This demo project is to show how to use Firebase to host Angular app.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+This project was generated with [Firebase CLI]( https://firebase.google.com/docs/cli) version 9.23.0.
 
 ## Firebase CLI backlog
 
@@ -8,17 +11,17 @@ Create firebase project at: [Firebase Console](https://console.firebase.google.c
 
 Run `npm install firebase` to install the latest SDK
 
-Run `npm install -g firebase-tools` for host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+Run `npm install -g firebase-tools` for host your site with Firebase Hosting, you need the Firebase CLI (a command line tool), install it with npm (the Node.js package manager). now.. using the Firebase CLI, you can deploy your site with the following command from your project's root directory:
 
-Run `firebase login`
+Run `firebase login` to log in via the browser and authenticate the firebase tool.
 
-Run `firebase init`
+Run `firebase init` to initialize your project. The Firebase CLI will prompt you to select options about how to set up your project. Accept the defaults by pressing Enter for each prompt.
 
-Run `ng build`
+Run `ng build` to build dist, then copy to public
 
-Run `xcopy .\dist\firebase-angular-app\*.*  .\public`
+Run `xcopy .\dist\firebase-angular-app\*.*  .\public` to copy from dist to public,
 
-Run `firebase deploy`
+Run `firebase deploy` to deply
 
 ## Development server
 

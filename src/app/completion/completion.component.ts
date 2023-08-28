@@ -6,6 +6,10 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./completion.component.less'],
   encapsulation: ViewEncapsulation.ShadowDom
 })
+
+/** 
+ * This is the completion component.
+ */
 export class CompletionComponent implements OnInit {
 
   constructor() { }
