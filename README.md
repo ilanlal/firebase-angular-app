@@ -11,15 +11,36 @@ Create firebase project at: [Firebase Console](https://console.firebase.google.c
 
 Run `npm install firebase` to install the latest SDK
 
-Run `npm install -g firebase-tools` for host your site with Firebase Hosting, you need the Firebase CLI (a command line tool), install it with npm (the Node.js package manager). now.. using the Firebase CLI, you can deploy your site with the following command from your project's root directory:
+## Set up Firebase Hosting
+
+### Install the Firebase CLI
+
+To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+
+Run `npm install -g firebase-tools` command to install the CLI or update to the latest CLI version.
+
+### Initialise your project
+
+Open a terminal window and navigate to or create a root directory for your web app
+
+#### Sign in to Google
 
 Run `firebase login` to log in via the browser and authenticate the firebase tool.
 
+#### Initiate your project
+
+Run this command from your app's root directory:
+
 Run `firebase init` to initialize your project. The Firebase CLI will prompt you to select options about how to set up your project. Accept the defaults by pressing Enter for each prompt.
+
+### Deploy to Firebase Hosting
 
 Run `ng build` to build dist, then copy to public
 
 Run `xcopy .\dist\firebase-angular-app\*.*  .\public` to copy from dist to public,
+
+When you're ready, deploy your web app
+Put your static files (e.g. HTML, CSS, JS) in your app's deploy directory (the default is 'public'). Then, run this command from your app's root directory:
 
 Run `firebase deploy` to deply
 
